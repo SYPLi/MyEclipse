@@ -23,6 +23,7 @@ public class GoodsInfoServlet extends HttpServlet {
 	 */
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String flag=request.getParameter("flag");
+		System.out.println(flag);
 		GoodsInfoDao goodsInfoDao=new GoodsInfoDaoImpl();
 		List<GoodsInfo> goodsInfos=null;
 		switch (flag) {
