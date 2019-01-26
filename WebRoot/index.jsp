@@ -22,7 +22,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
   </head>
   
+<<<<<<< HEAD
   <body>  
+=======
+  <body>
+>>>>>>> branch 'master' of https://github.com/SYPLi/MyEclipse.git
   	<a href="GoodsInfoServlet?flag=1">查看图片</a>
     <a href="GoodsInfoServlet?flag=2">查看视频</a>
   </body>

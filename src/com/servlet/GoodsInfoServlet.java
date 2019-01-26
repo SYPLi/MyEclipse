@@ -23,6 +23,10 @@ public class GoodsInfoServlet extends HttpServlet {
 	 */
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String flag=request.getParameter("flag");
+<<<<<<< HEAD
+=======
+		System.out.println(flag);
+>>>>>>> branch 'master' of https://github.com/SYPLi/MyEclipse.git
 		GoodsInfoDao goodsInfoDao=new GoodsInfoDaoImpl();
 		List<GoodsInfo> goodsInfos=null;
 		switch (flag) {
